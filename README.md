@@ -166,3 +166,6 @@
         •	Destacar proyectos y habilidades técnicas aplicadas
         •	Proyectar profesionalismo para reclutadores y empresas tecnológicas
         •	Comunicar diferenciadores y fortalezas de forma visual y clara
+
+# Figman
+    - https://atlas-space-16884939.figma.site/
