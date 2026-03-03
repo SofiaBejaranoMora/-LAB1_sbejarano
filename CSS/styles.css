@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+  --blue: #2563eb;
+  --blue-light: #eff6ff;
+  --blue-mid: #dbeafe;
+  --dark: #0f172a;
+  --gray: #64748b;
+  --gray-light: #f1f5f9;
+  --white: #ffffff;
+  --border: #e2e8f0;
+  --radius: 12px;
+  --shadow: 0 1px 3px rgba(0,0,0,0.07), 0 4px 16px rgba(0,0,0,0.06);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Sora', sans-serif;
+  color: var(--dark);
+  background: var(--white);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Menu*/
+.MenuFlotante{
+    position: sticky; top: 0; /*NT: Hace que el elemento se quede fijo arriba*/
+    z-index: 100; /*Nt: Asegura que el menú esté por encima de otros elementos*/
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(12px); /*NT: difumina lo que esta detras del menu*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    padding: 20px;
+    height: 64px
+}
+
+.navMenuFlotante{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menuLinks{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px
+}
+
+.menuLinks a {
+    text-decoration: none; 
+    color: var(--gray); 
+    font-size: 14px; 
+    font-weight: 500;
+    transition: color .2s;/*Cuando cambie de color sera suave durante 0.2 segundos*/
+}
+
+.menuLinks a:hover {
+    color: var(--dark);
+}
+
+.LogoMenuFlotante{
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
