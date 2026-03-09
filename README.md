@@ -169,3 +169,6 @@
 
 # Figman
     - https://atlas-space-16884939.figma.site/
+
+# URL del sitio publicado 
+    - https://stellular-gelato-00dfe9.netlify.app/
